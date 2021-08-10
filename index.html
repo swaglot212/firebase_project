@@ -6,10 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Firebase Project</title>
     <!-- Link your CSS, and JS files here: -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
 
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDJGKUqvt0ZW1qIM-2Qm-WXqu8b5xuyY9I",
+    authDomain: "fireproj-67139.firebaseapp.com",
+    projectId: "fireproj-67139",
+    storageBucket: "fireproj-67139.appspot.com",
+    messagingSenderId: "50641925314",
+    appId: "1:50641925314:web:254bf4e5e75acebfdc375b"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script src="script.js" defer></script>
+<link rel="stylesheet" href="style.css">
     
 </head>
 <body>
-    
+    <button id="submit">Press here</button>
 </body>
 </html>
